@@ -21,16 +21,31 @@ body {
 	font-size:1.5em;
 	text-shadow: 2px 2px #000000;
 }
+nav.navbar {
+	background:white;
+}
 
 div.aboutParagraph div.aboutButton {
 	text-align:center;
 }
 div.aboutParagraph div.aboutButton button {
 	margin-top:10px;
+	color:white;
+	text-shadow:1px 1px black;
+	background:rgba(0,0,0,0.5);
 }
 
 
 @media (min-width: 768px) {
+	body {
+		padding-top:0px;
+	}
+	.overlay {
+		top:0px;
+	}
+	nav.navbar {
+		background:rgba(255,255,255,0.85);
+	}
 	.aboutParagraph {
 		margin-top:84px;
 	}
